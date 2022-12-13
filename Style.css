@@ -1,0 +1,26 @@
+﻿*{
+    margin:5;
+    padding:5;
+    box-sizing: border-box;
+
+}
+
+table
+{
+    border-collapse:collapse;
+    width:25%;
+    margin-left:10%;
+}
+
+th,td
+{
+    text-align:left;
+    padding:10px;
+}
+th{
+    background-color: darkblue;
+    color: red;
+}
+tr:nth-child(odd){
+    background-color:aqua
+}
